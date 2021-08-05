@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(OpenGL)
+project(LearnOpenGL)
 
 add_executable(${PROJECT_NAME} src/Application.cpp)
 
@@ -10,3 +10,7 @@ target_link_libraries(${PROJECT_NAME} glfw)
 # Use OpenGL
 find_package(OpenGL REQUIRED)
 target_link_libraries(${PROJECT_NAME} OpenGL::GL)
+
+# Use Glew
+find_package(GLEW REQUIRED)
+target_link_libraries(${PROJECT_NAME} GLEW::GLEW)
