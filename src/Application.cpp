@@ -3,6 +3,7 @@
 #include <iostream>
 int main(void)
 {
+    std::cout << "Begin!!!" << std::endl;
     GLFWwindow* window;
 
     /* Initialize the library */
