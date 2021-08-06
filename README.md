@@ -42,7 +42,6 @@ pacman -S mingw-w64-x86_64-cmake
 ### Linux
 * Install GLFW
 ```console
-sudo apt-get install libglfw3
 sudo apt-get install libglfw3-dev
 ```
 * Install GLEW
