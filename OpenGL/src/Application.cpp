@@ -26,8 +26,6 @@ int main(void)
     }
 
     std::cout << glGetString(GL_VERSION) << std::endl;
-    size_t a;
-    glGenBuffers(&a);
 
     /* Loop until the user closes the window */
     while (!glfwWindowShouldClose(window))
